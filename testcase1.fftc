@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<testCase version="26.2.0.202603311918">
+    <general>
+        <tags>tag1, tag2</tags>
+        <language>Python</language>
+        <xPathVersion>XPATH31</xPathVersion>
+    </general>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="f0c32540-acd7-4e25-9800-6e66c9162b71" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>print(&quot;tag1,tag2&quot;)</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
